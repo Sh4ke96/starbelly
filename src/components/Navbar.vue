@@ -100,7 +100,7 @@ export default {};
         cursor: pointer;
       }
       .bagIcon {
-        background-color: #f2f3f5;
+        background-color: var(--lightGray);
         box-shadow: 0 0 0 2px #ffffff;
         border-radius: 50%;
         display: inline-flex;

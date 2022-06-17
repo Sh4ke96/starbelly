@@ -19,6 +19,7 @@ export default {
 :root {
   --primary: #f5c332;
   --secondary: #231e41;
+  --lightGray: #F2F3F5;
   font-size: 10px;
 }
 

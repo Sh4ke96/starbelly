@@ -28,13 +28,15 @@ export default {
 
 header {
   padding: 0 1.5rem;
-  position: relative;
+  position: fixed;
   height: 12rem;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   transition: 0.3s ease-in-out;
+  border-bottom: solid 1px var(--lightGray);
+  border-top: solid 1px var(--lightGray);
 }
 
 .header__wrapper {
