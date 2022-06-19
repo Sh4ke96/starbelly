@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;900&display=swap');
+
+h1,
+.h1 {
+    font-size: 7rem;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-down(xxl) {
+        font-size: 4.5rem;
+        margin-bottom: 4rem;
+    }
+
+    @include media-breakpoint-down(md) {
+        font-size: 3rem;
+        margin-bottom: 2rem;
+    }
+}

@@ -15,19 +15,5 @@ export default {
 };
 </script>
 
-<style lang="scss">
-:root {
-  --primary: #f5c332;
-  --secondary: #231e41;
-  --lightGray: #F2F3F5;
-  font-size: 10px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  color: var(--secondary);
-  font-family: "Rubik", sans-serif;
-}
+<style>
 </style>
