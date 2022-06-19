@@ -1,0 +1,25 @@
+@keyframes animation-1 {
+    0% {
+      transform: translateY(0) scale(1);
+    }
+  
+    50% {
+      transform: translateY(-5px) scale(1.05);
+    }
+  
+    0% {
+      transform: translateY(0) scale(1);
+    }
+  }
+
+  @keyframes message {
+    0% {
+      opacity: 0;
+      transform: translateX(30px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
