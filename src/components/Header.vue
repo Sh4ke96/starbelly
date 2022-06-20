@@ -49,9 +49,21 @@
             <div class="header__hero-circle-3"></div>
             <div class="header__hero-circle-4"></div>
             <div class="header__hero-circle-5"></div>
-            <!-- <img src="../assets/img/illustration1.svg" alt="phones" />
-            <img src="../assets/img/illustration2.svg" alt="phones" />
-            <img src="../assets/img/illustration3.svg" alt="phones" /> -->
+            <img
+              class="header__hero-icon-1"
+              src="../assets/img/illustration1.svg"
+              alt="phones"
+            />
+            <img
+              class="header__hero-icon-2"
+              src="../assets/img/illustration2.svg"
+              alt="phones"
+            />
+            <img
+              class="header__hero-icon-3"
+              src="../assets/img/illustration3.svg"
+              alt="phones"
+            />
           </div>
         </div>
       </div>
@@ -161,8 +173,8 @@ export default {
       box-shadow: 0 2px 46px 0 rgba(0, 0, 0, 0.36);
     }
     .header__hero-dialog-1 {
-      top: 10%;
-      right: 20%;
+      top: 0%;
+      right: 35%;
       margin-right: -30px;
       animation: message 0.4s ease-in-out;
       animation-delay: 0s;
@@ -171,7 +183,7 @@ export default {
       animation-delay: 2s;
     }
     .header__hero-dialog-2 {
-      bottom: 35%;
+      bottom: 60%;
       left: 25%;
       margin-right: 30px;
       animation: message 0.4s ease-in-out;
@@ -179,6 +191,104 @@ export default {
       animation-fill-mode: none;
       animation-fill-mode: forwards;
       animation-delay: 1s;
+    }
+    .header__hero-dialog-1 span,
+    .header__hero-dialog-2 span {
+      display: inline-block;
+      margin-right: 15px;
+      font-size: 26px;
+      transform: translateY(5px);
+    }
+    .header__hero-dialog-1::after,
+    .header__hero-dialog-2::after {
+      transform: rotate(45deg);
+      content: "";
+      position: absolute;
+      z-index: 9;
+      bottom: -5px;
+      right: 30px;
+      background-color: #ffffff;
+      height: 10px;
+      width: 10px;
+    }
+    .header__hero-circle-1 {
+      position: absolute;
+      height: 100px;
+      width: 100px;
+      border-radius: 50%;
+      border: solid 22px #ffffff;
+      right: 20%;
+      top: 18%;
+      box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.09),
+        0 3px 6px 0 rgba(0, 0, 0, 0.09);
+      animation: animation-3 3s 1s infinite ease-in-out;
+    }
+    .header__hero-circle-2 {
+      position: absolute;
+      top: 13%;
+      left: 20%;
+      height: 25px;
+      width: 25px;
+      background-color: #f5c332;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.09);
+      animation: animation-1 2s 3s infinite ease-in-out;
+    }
+    .header__hero-circle-3 {
+      position: absolute;
+      bottom: 48%;
+      right: 50%;
+      width: 55px;
+      height: 55px;
+      background-color: #f5c332;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.09);
+      animation: animation-1 3s infinite ease-in-out;
+    }
+    .header__hero-circle-4 {
+      position: absolute;
+      bottom: 66%;
+      right: 20%;
+      width: 15px;
+      height: 15px;
+      background-color: #f5c332;
+      border-radius: 50%;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.09);
+      animation: animation-1 3s 4s infinite ease-in-out;
+    }
+    .header__hero-circle-5 {
+      position: absolute;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      border: solid 10px #ffffff;
+      left: 20%;
+      bottom: 52%;
+      box-shadow: inset 0 3px 6px 0 rgba(0, 0, 0, 0.09),
+        0 3px 6px 0 rgba(0, 0, 0, 0.09);
+      animation: animation-3 3s 1.5s infinite ease-in-out;
+    }
+    .header__hero-icon-1,
+    .header__hero-icon-2,
+    .header__hero-icon-3 {
+      position: absolute;
+      width: 8%;
+      opacity: 0.07;
+    }
+    .header__hero-icon-1 {
+      top: -5%;
+      left: 20%;
+      animation: animation-2 3s 2s infinite ease-in-out;
+    }
+    .header__hero-icon-2 {
+      right: 20%;
+      bottom: 27%;
+      animation: animation-2 3s 1s infinite ease-in-out;
+    }
+    .header__hero-icon-3 {
+      left: 22%;
+      bottom: 40%;
+      animation: animation-2 3s infinite ease-in-out;
     }
   }
 }
